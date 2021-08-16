@@ -1,0 +1,17 @@
+<article class="post">
+    <div class="title">
+        <div class="titleRow">
+            <h3>{{title}}</h3>
+            <p>({{format_date created_at}})</p>
+        </div>
+        <span class="content">{{post_content}}</span>
+        <div class="meta">
+            {{!-- {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
+            | --}}
+            <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+            <a href="/dashboard/edit/{{id}}" class="edit-link">Edit post</a>
+        </div>
+    </div>
+</article>
+
+{{!-- format_url --}}

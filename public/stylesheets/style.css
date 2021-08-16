@@ -1,0 +1,72 @@
+h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: lightskyblue;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    font-family: fantasy;
+    color: white;
+}
+
+header h1 {
+    letter-spacing: 3px;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+header button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    padding: none;
+    font-family: fantasy;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* home */
+.post-list {
+    background-color: lightskyblue;
+}
+
+/* post-info */
+.post {
+    border: lightskyblue 2px solid;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.titleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.meta {
+    border-top: lightskyblue 2px solid;
+    background-color: lightsteelblue;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    padding-inline-end: 40px;
+}
