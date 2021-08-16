@@ -20,5 +20,7 @@ The website will alow users to create posts which will be be saved and displayed
 Project made by Parker
 
 ## Deployed Link:
+https://tech-blog-for-class.herokuapp.com/
 
 ## Screenshot:
+<img width="960" alt="tech" src="https://user-images.githubusercontent.com/80490941/129633939-506f5512-bd0b-4e9c-9c6f-9fa04ddeae0f.PNG">
